@@ -1,0 +1,119 @@
+    @font-face {
+            font-family:dkk;
+            src: url("Fantom Fusion.otf");
+        }
+        body{
+            background:url(aurora-gradient-1758895253457.png) ;
+            font-family:dkk;
+        }
+        .txt{
+            font-family: dkk;
+        }
+        @media(max-width: 572px){
+            .bbc{
+display: flex;
+gap: 5vw;
+
+            }
+            .bbtn{
+                display: flex;
+              padding:3vh 14vw ; 
+              border:1px solid rgb(79, 234, 167) ;
+              background-color: transparent;
+              color: rgba(255, 255, 255, 0.675);
+            }
+            .op{
+                margin-bottom: 5vh;
+                font-size: 10vw;
+            }
+            .ipp{
+                width: 80vw;
+                height: 7vh;
+                font-size: 5vw;
+            }
+            .hea{
+font-size:13vw ;
+color: rgba(255, 255, 255, 0.768);
+            }
+            .oup{
+                margin-top: 5vh;
+                font-size: 7vw;
+            }
+            body{
+                background:url(aurora-gradient-1758903133842.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+        }
+        
+        @media (min-width:573px) and (max-width: 768px){
+            .bbc{
+display: flex;
+gap: 5vw;
+
+            }
+            .bbtn{
+                display: flex;
+              padding:3vh 5vw ; 
+            }
+            .op{
+                margin-bottom: 5vh;
+                font-size: 10vw;
+            }
+            .ipp{
+                width: 80vw;
+                height: 7vh;
+                font-size: 5vw;
+            }
+            .hea{
+font-size:13vw ;
+            }
+            .oup{
+                margin-top: 5vh;
+                font-size: 7vw;
+            }
+            body{
+                background:url(aurora-gradient-1758903694677.png)
+            }
+        }
+        @media (min-width:769px) and (max-width:
+        1058px){
+
+    .bbc{
+display: flex;
+gap: 5vw;
+}
+            .bbtn{
+                display: flex;
+              padding:3vh 5vw ; 
+              font-size: 3vw;
+              
+            }
+            .op{
+                margin-top: -7vh;
+                margin-bottom: 5vh;
+                font-size: 10vw;
+            }
+            .ipp{
+                width: 80vw;
+                height: 7vh;
+                font-size: 5vw;
+            }
+            .hea{
+                font-family: dkk;
+                font-size:6vw ;
+            }
+            .oup{
+                margin-top: 5vh;
+                font-size: 7vw;
+            }
+
+
+
+        }
+        
+        
+        
+        
+        
+        

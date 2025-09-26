@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="cal.css">
+</head>
+<body class=" bg-red-200 ">
+    <p class=" hea font-serif text-center text-[5vw] text-blue-300 txt">Calculator </p>
+    <div class="flex flex-col justify-center items-center gap-4">
+    <input type="text" id="ff" class="ipp border-solid border-1 border-white w-[20vw] mt-[10vh] rounded-4xl h-[5vh] text-center text-cyan-300" placeholder="value 1"/>
+    <input type="text" id="lf" class="ipp border-1 border-solid border-white w-[20vw] rounded-4xl h-[5vh] text-center text-cyan-300" placeholder="value 2"/>
+    </div>
+    <div class="mt-[7vh]">
+        <p class="text-emerald-400 text-[3vw] flex justify-center items-center op">Operations</p>
+        <div class="flex justify-center items-center gap-2 flex-wrap bbc">
+            <button id="add" class="border-2 border-black text-black bg-green-300 px-[1.5vw] rounded-[40%] flex justify-center items-center w-[3vw] h-[5vh]  bbtn">+</button>
+            <button id="sub" class="border-2 border-black text-black bg-green-300 px-[1.5vw] rounded-[40%] flex justify-center items-center w-[3vw] h-[5vh]  bbtn">-</button>
+            <button id="mul" class="border-2 border-black text-black bg-green-300 px-[1.5vw] rounded-[40%] flex justify-center items-center w-[3vw] h-[5vh]  bbtn">*</button>
+            <button id="quo" class="border-2 border-black text-black bg-green-300 px-[1.5vw] rounded-[40%] flex justify-center items-center w-[3vw] h-[5vh]  bbtn">/</button>
+            <button id="rema" class="border-2 border-black text-black bg-green-300 px-[1.5vw] rounded-[40%] flex justify-center items-center w-[3vw] h-[5vh]  bbtn">%</button>
+            <button id="expo" class="border-2 border-black text-black bg-green-300 px-[1.5vw] rounded-[40%] flex justify-center items-center w-[3vw] h-[5vh] text-wrap bbtn">x<sup>n</button>
+            <button type="reset" onclick="fun()" id="clear" class="border-2 border-black text-black bg-green-300 px-[1.5vw] rounded-[40%] flex justify-center items-center w-[3vw] h-[5vh] text-wrap bbtn">C</button>
+        </div>
+    </div>
+    <div id="ans" class="text-[5vw] flex justify-center text-center items-center text-rose-500 mt-[5vh] oup"></div>
+    <script src="cal.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</body>
+</html>
